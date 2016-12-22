@@ -1,5 +1,5 @@
 {
-  "name": "library-source-plugin",
+  "name": "library-src-plugin",
   "version": "1.0.0",
   "description": "A webpack plugin to add an index.js entry point for libraries with source folders.",
   "main": "index.js",
