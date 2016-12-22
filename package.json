@@ -12,6 +12,10 @@
     "plugin",
     "entry"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https:github.com/e2d/library-source-plugin.git"
+  },
   "author": "Joshua <tenner.joshua@gmail.com>",
   "license": "MIT",
   "dependencies": {
