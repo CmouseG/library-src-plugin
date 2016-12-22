@@ -1,4 +1,3 @@
-
 let { sync } = require('glob');
 let { basename, extname } = require('path');
 let { writeFile } = require('fs');
