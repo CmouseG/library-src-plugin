@@ -12,7 +12,8 @@ module.exports = class LibrarySourcePlugin {
 
     let files = sync(join(resolve(this.folder), `*@(${this.extensions.join('|')})`));
     let source = `module.exports = {\n${files.map((file) => {
-      let name = basename(file, extname(file));
+      console.log(relative('./', file));
+      let name = basename(file);
       return `  '${name}': require('./${join(this.folder, name)}')`;
     }).join(',\n')}
 };`;
